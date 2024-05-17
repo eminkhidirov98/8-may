@@ -1,7 +1,6 @@
-
-let num = 50;
-
-while (num < 55) {
-    console.log(num);
-    num++;
+for (let i = 0; i < 3; i++) {
+    console.log(i);
+    for (let j = 0; j < 3; i++) {
+        console.log(j);
+    }
 }
