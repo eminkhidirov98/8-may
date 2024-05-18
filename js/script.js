@@ -1,18 +1,10 @@
-"use strict";
 
-let num = 20;
+const usdCurr = 28;
+const eurCurr = 32;
 
-function showFirstMessage(text) {
-    console.log(text);
-    console.log(num)
-}
-showFirstMessage('Hello World!');
-console.log(num);
-
-function calc(a, b,) {
-    return (a + b);
+function convert(amount, curr) {
+    console.log(curr * amount)
 }
 
-console.log(calc(4, 3));
-console.log(calc(5, 6));
-console.log(calc(10, 6));
+convert(500, usdCurr);
+convert(500, eurCurr);
