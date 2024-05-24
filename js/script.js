@@ -1,10 +1,13 @@
+const str = "teSt";
 
-const usdCurr = 28;
-const eurCurr = 32;
 
-function convert(amount, curr) {
-    console.log(curr * amount)
-}
+console.log(str.toLowerCase());
+console.log(str);
 
-convert(500, usdCurr);
-convert(500, eurCurr);
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf("q"));
+
+const logg = "Hello world";
+
+console.log(logg.slice(6));
